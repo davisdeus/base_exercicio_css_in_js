@@ -21,8 +21,8 @@ export const FormPesq = styled.form`
 `
 
 export const BtnPesq = styled.button`
-  background-color: ${(props) => props.theme.corPrimaria};
-  border: 1px solid ${(props) => props.theme.corPrimaria};
+  background-color: ${(props) => props.theme.corPrincipal};
+  border: 1px solid ${(props) => props.theme.corPrincipal};
   height: 40px;
   padding: 0 16px;
   font-size: 18px;
@@ -33,5 +33,5 @@ export const BtnPesq = styled.button`
 
 export const InputPesq = styled.input`
   padding: 0 16px;
-  outline-color: ${(props) => props.theme.corPrimaria};
+  outline-color: ${(props) => props.theme.corPrincipal};
 `
